@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .texto-negro{
     color: black;
     font-size: 1.5rem;
@@ -5,4 +10,23 @@
 .texto-negro h5{
     color: black;
     font-size: 2rem;
+}
+.icono-32{
+    font-size: 3.5rem;
+    color: black;
+}
+.icono-32:hover{
+    color: #007bff;
+}
+.text-32{
+    font-size: 0.8rem;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-twitter-square:hover{
+    color: #7abaff;
+}
+.w-150{
+    width: 150%;
 }

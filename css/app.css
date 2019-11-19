@@ -21,6 +21,9 @@
 .text-32{
     font-size: 0.8rem;
 }
+.text-size-50{
+    font-size: 2rem;
+}
 .fa-youtube:hover{
     color: red;
 }

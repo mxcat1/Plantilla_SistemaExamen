@@ -24,7 +24,7 @@
                 <li class="nav-item"><a href="index.html" class="nav-link"><span class="text-white">Inicio</span></a></li>
                 <li class="nav-item"><a href="#como-funciona" class="nav-link"><span class="text-white">Como Funciona</span></span></a></li>
                 <li class="nav-item"><a href="#nosotros" class="nav-link"><span class="text-white">Nosotros</span></a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><span class="text-white">Contactanos</span></a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link"><span class="text-white">Contactanos</span></a></li>
             </ul>
         </div>
         <div class="justify-content-end">
@@ -34,37 +34,91 @@
     </nav>
 </header>
     <main class="contenido">
-        <div class="container w-75">
-            <div class="row m-5">
-                <div class="col-sm-12 d-flex justify-content-center">
-                    <h3 class="text-size-50">Registro</h3>
+        <form action="#" method="post">
+            <div class="container w-75">
+                <div class="row m-5">
+                    <div class="col-sm-12 d-flex justify-content-center">
+                        <h3 class="text-size-50">Registro</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="row m-5">
-                <div class="form-group col-sm-6 mt-3">
-                    <input type="text" class="form-control" name="txtdni" id="txtdni" placeholder="Nro de DNI">
-                </div>
-                <div class="form-group col-sm-6 border-primary">
-                    <h5>Contrato</h5>
-                    <div class="d-flex justify-content-center ">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1"> Con Contrato</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">Sin Contrato</label>
+                <div class="row ml-5">
+                    <div class="form-group col-sm-6 mt-3">
+                        <input type="text" class="form-control w-75" name="txtdni" id="txtdni" placeholder="Nro de DNI" required>
+                    </div>
+                    <div class="form-group col-sm-6 ">
+                        <h5>Contrato</h5>
+                        <div class="m-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="grbcontrato" id="rbconcontrato" value="Con Contrato" required>
+                                <label class="form-check-label" for="rbconcontrato"> Con Contrato</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="grbcontrato" id="rbsincontrato" value="Sin Contrato" required checked>
+                                <label class="form-check-label" for="rbsincontrato">Sin Contrato</label>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row ml-5">
-                <div class="form-group col-sm-6">
-                    <input type="text" class="form-control" name="txtnombre" id="txtnombre" placeholder="Nombres">
+                <div class="row ml-5">
+                    <div class="form-group col-sm-6">
+                        <input type="text" class="form-control w-75" name="txtnombre" id="txtnombre" placeholder="Nombres" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="text" class="form-control w-75" name="txtnrcontrato" id="txtnrcontrato" placeholder="Nro de Contrato">
+                    </div>
                 </div>
-            </div>
+                <div class="row ml-5">
+                    <div class="form-group col-sm-6">
+                        <input type="text" class="form-control w-75" name="txtapellido" id="txtapellido" placeholder="Apellidos" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="text" class="form-control w-75" name="txtnomusuario" id="txtnomusuario" placeholder="Nombre de Usuario" required>
+                    </div>
+                </div>
+                <div class="row ml-5">
+                    <div class="form-group col-sm-6">
+                        <input type="date" class="form-control w-75" name="dtfenac" id="dtfenac" placeholder="Fecha de Nacimiento" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="password" class="form-control w-75" name="txtpass" id="txtpass" placeholder="Contraseña" required>
+                    </div>
+                </div>
+                <div class="row ml-5">
+                    <div class="form-group col-sm-6">
+                        <h5>Sexo</h5>
+                        <div class="m-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="grbsexo" id="rbfemenino" value="Femenino" required>
+                                <label class="form-check-label" for="rbconcontrato"> Femenino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="grbsexo" id="rbmasculino" value="Masculino" required>
+                                <label class="form-check-label" for="rbsincontrato">Masculino</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="password" class="form-control w-75" name="txtveripass" id="txtveripass" placeholder="Verificar Contraseña" required>
+                    </div>
+                </div>
+                <div class="row ml-5">
+                    <div class="form-group col-sm-6">
+                        <select class="form-control w-75" id="cbpais" required>
+                            <option>Pais</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-sm-6 ">
+                        <input type="submit" class="btn btn-success w-50 ml-5" name="btnregistrar" id="btnregistrar" value="Registrarse">
+                    </div>
+                </div>
 
-        </div>
+            </div>
+        </form>
+
     </main>
 <footer class="footer row w-100 d-flex flex-fill m-0">
     <div class="col-sm-12 w-100">

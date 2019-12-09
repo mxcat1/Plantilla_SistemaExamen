@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42b2c00f-5b56-4dc8-8506-99817ebc8bfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdminPlantilla/administracion-Administradores.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminPlantilla/administracion-Alumnos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminPlantilla/administracion-EditarContraseña.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminPlantilla/administracion-EditarDatosPersona.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminPlantilla/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminPlantilla/administracion-Administradores.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminPlantilla/administracion-Administradores.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdminPlantilla/administracion.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminPlantilla/administracion.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AdminPlantilla/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AdminPlantilla" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -54,26 +57,27 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MAXCATMXCAT\Progracion_Cursos\Plantilla_SistemaExamen\AdminPlantilla" />
+      <recent name="F:\MAXCATMXCAT\Progracion_Cursos\Plantilla_SistemaExamen\AdminPlantilla\css" />
+      <recent name="C:\Users\MXCAT-PC\WebstormProjects\Plantilla_SistemaExamen" />
+      <recent name="C:\Users\MXCAT-PC\WebstormProjects\Plantilla_SistemaExamen\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MXCAT-PC\WebstormProjects\Plantilla_SistemaExamen\img" />
       <recent name="C:\Users\MXCAT-PC\WebstormProjects\Plantilla_SistemaExamen\img\slider" />
       <recent name="C:\Users\MXCAT-PC\WebstormProjects\Plantilla_SistemaExamen\img\Logo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\MAXCATMXCAT\Progracion_Cursos\Plantilla_SistemaExamen\AdminPlantilla\css" />
-      <recent name="C:\Users\MXCAT-PC\WebstormProjects\Plantilla_SistemaExamen" />
-      <recent name="C:\Users\MXCAT-PC\WebstormProjects\Plantilla_SistemaExamen\js" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -93,6 +97,7 @@
       <workItem from="1574210435201" duration="3563000" />
       <workItem from="1575287274634" duration="1484000" />
       <workItem from="1575467848804" duration="2852000" />
+      <workItem from="1575835460500" duration="15837000" />
     </task>
     <task id="LOCAL-00001" summary="terminado la plantilla del inicio">
       <created>1574217946026</created>

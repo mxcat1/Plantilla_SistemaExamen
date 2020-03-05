@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42b2c00f-5b56-4dc8-8506-99817ebc8bfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdminPlantilla/administracion-Alumnos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdminPlantilla/administracion-EditarContraseña.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdminPlantilla/administracion-EditarDatosPersona.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdminPlantilla/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminPlantilla/administracion-Administradores.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminPlantilla/administracion-Administradores.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdminPlantilla/administracion.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminPlantilla/administracion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdminPlantilla/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/AdminPlantilla/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +92,7 @@
       <workItem from="1575287274634" duration="1484000" />
       <workItem from="1575467848804" duration="2852000" />
       <workItem from="1575835460500" duration="15837000" />
+      <workItem from="1578258561770" duration="164000" />
     </task>
     <task id="LOCAL-00001" summary="terminado la plantilla del inicio">
       <created>1574217946026</created>
